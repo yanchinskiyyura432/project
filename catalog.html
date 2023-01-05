@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="catalogContent">
+      <div class="navbar">
+        <img src="data/logo.png" class="logo" />
+        <p>Catalogue</p>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalog.html">Catalogue</a></li>
+          
+          
+          <li><img src="data/cart.png" id="cart" /></li>
+        </ul>
+        <div class="cart">
+          <div class="cart-title">Your cart</div>
+          <div class="cart-content">
+          
+          </div>
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <button type="button" class="btn-buy">Buy</button>
+
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+      </div>
+
+      <section class="list container">
+        <div class="prod-box">
+          
+          <p class="box-description">Very popular game</p>
+          
+          
+          <img src="data/monopoly.png" alt="" class="product-img" />
+          <h2 class="title">Monopoly</h2>
+
+          <i class="bx bx-shopping-bag add-cart"></i>
+          <span class="price">$14.99</span>
+        </div>
+
+        <div class="prod-box">
+          
+          <p class="box-description">Very popular game</p>
+          
+          <img style="width: 240px" src="data/tiletum.png" alt="" class="product-img"/>
+          <h2 class="title">Tiletum</h2>
+
+          <i class="bx bx-shopping-bag add-cart"></i>
+          <span class="price">$24.99</span>
+        </div>
+
+        <div class="prod-box">
+          <p class="box-description">Very popular game</p>
+           
+          
+          <img src="data/batman.png" alt="" class="product-img" />
+          <h2 class="title">Batman</h2>
+
+          <i class="bx bx-shopping-bag add-cart"></i>
+          <span class="price">$14.99</span>
+        </div>
+
+        <div class="prod-box">
+          <p class="box-description">Very popular game</p>
+          <img src="data/jenga.jpg" alt="" class="product-img"/>
+          <h2 class="title">jenga</h2>
+
+          <i class="bx bx-shopping-bag add-cart"></i>
+          <span class="price">$11.99</span>
+        </div>
+
+        <div class="prod-box">
+          <p class="box-description">Very popular game</p>
+          <img src="data/Foundations-of-Rome.png" alt="" class="product-img"/>
+          <h2 class="title">foundations of rome</h2>
+          <i class="bx bx-shopping-bag add-cart"></i>
+          <span class="price">$19.99</span>
+        </div>
+
+        <div class="prod-box">
+          <p class="box-description">Very popular game</p>
+          <img src="data/Root-Maurauder.png" alt="" class="product-img"/>
+          <h2 class="title">root marauder</h2>
+
+          <i class="bx bx-shopping-bag add-cart"></i>
+          <span class="price">$14.99</span>
+        </div>
+        <div class="prod-box">
+          <p class="box-description">Very popular game</p>
+          <img src="data/messina.png" alt="" class="product-img"/>
+          <h2 class="title">messina 1347</h2>
+
+          <i class="bx bx-shopping-bag add-cart"></i>
+          <span class="price">$19.99</span>
+        </div>
+        <div class="prod-box">
+          <p class="box-description">Very popular game</p>        
+          <img src="data/frostpunk.png" alt="" class="product-img"/>
+          <h2 class="title">frostpunk:the board game</h2>
+
+          <i class="bx bx-shopping-bag add-cart"></i>
+          <span class="price">$17.99</span>
+        </div>
+      </section>
+      <div class="footer">
+        <div class="col-1">
+          <img class="phoneimg" src="data/phone.png" alt="" />
+          <h3>PHONE NUMBERS</h3>
+  
+          <p>+380635562113</p>
+          <p>+380505890331</p>
+        </div>
+        <div class="col-2">
+          <img class="mailimg" src="data/mail.png" alt="" />
+          <h3>NEWSLETTER</h3>
+          <form class="contact-form"> 
+            <input class="footer-email" type="email" placeholder="Your Email Adress" required />
+            <br />
+            <button id="foot-btn" type="submit">Send</button> 
+          </form>
+        </div>
+        <div class="col-3">
+          <img class="socialimg" src="data/social.png" alt="" />
+          <h3>SOCIAL ACCOUNTS</h3>
+          
+            <img class="facebookimg" src="data/facebook.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+      
+      integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+    <script src="catalog.js"></script>
+  </body>
+</html>
